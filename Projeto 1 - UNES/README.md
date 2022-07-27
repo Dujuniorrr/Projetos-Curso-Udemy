@@ -1,2 +1,3 @@
 #Projeto UNES (Página institucional de uma universidade)
-Projeto feito com HTML5 puro.
+
+Feito em HTML5 puro.
