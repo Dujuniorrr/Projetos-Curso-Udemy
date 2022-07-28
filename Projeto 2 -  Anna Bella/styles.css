@@ -1,0 +1,52 @@
+body{
+    background-image: url(imagens/fundo.png);
+    background-color: #d2d2c1;
+}
+
+#principal{
+    width: 900px;
+}
+.navbar{
+    width: 600px;
+    font:16px Arial, Helvetica, sans-serif;
+    background-color: #c5c5b2;
+    margin: 0px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    padding-right: 300px;
+}
+
+.navbar p{
+    margin-left: 22px;
+}
+
+.navbar a{
+    color: #4b566a;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.about-anna{
+    padding: 8px;
+    width: 884px;
+    background-color: #e8e8d9;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+.about-anna h2{
+    font-size: 20px;
+    color: #828271
+}
+
+.about-anna img{
+    border: solid 10px #c3c3ae;
+}
+
+.rodape{
+    width: 900px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
