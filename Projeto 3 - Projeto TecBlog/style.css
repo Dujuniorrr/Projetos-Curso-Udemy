@@ -1,0 +1,171 @@
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+*{
+    margin: 0px;
+}
+
+#navbar{
+     background-color: #f7b600;
+     margin: 0px;
+     padding: 15px;
+}
+
+#navbar h1{
+     text-align: center;
+     margin: 0px;
+     padding: 14px;
+     font-size: 40px;
+     color: #4e4e4e;;
+}
+
+#navbar span{
+     color: white;
+}
+
+#menu{
+    text-align: center;
+    padding: 5px;
+}
+
+#menu ul{
+    padding: 0px;
+}
+
+#menu li{
+     color: white;
+     display: inline;
+     margin: 0px 5px;
+     font-size: 17px;
+}
+
+
+#menu a:link, a:visited{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    background-color: white;
+    color: #f7b600;  
+}
+#area-principal{
+    padding: 10px;
+    margin: 0px auto;
+    width: 940px;
+}
+
+#area-postagem{
+    float: left;
+    width: 670px;
+}
+
+.postagem{
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+}
+
+.postagem h2{
+    color: #f7b600;
+}
+.postagem span{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.postagem a:link{
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.postagem a:visited{
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.postagem a:hover{
+    color: #f7b600;
+    text-decoration: underline;
+}
+
+#area-lateral{
+    width: 250px;
+    margin: 20px auto;
+    border-bottom: 20px;
+    float: right;
+}
+
+.conteudo-lateral{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.conteudo-lateral h3{
+    background-color: #CCC;
+    color: #565656;;
+    padding: 5px;
+}
+
+.conteudo-lateral a:link{
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.conteudo-lateral a:visited{
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.conteudo-lateral a:hover{
+    color: #f7b600;
+    text-decoration: underline;
+}
+.conteudo-lateral ul{
+    padding: 5px;
+}
+
+.conteudo-lateral li{
+    list-style: none;
+}
+
+.texto-lateral p{
+    font-size: 14px;
+}
+
+.texto-lateral a:link{
+    font-size: 14px;
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.texto-lateral a:visited{
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.texto-lateral a:hover{
+    color: #f7b600;
+    text-decoration: underline;
+}
+
+.texto-lateral{
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cec5c5;
+}
+
+.rodape{
+    padding: 15px;
+    text-align: center;
+    clear: both;
+    background-color: #CCC;
+}
