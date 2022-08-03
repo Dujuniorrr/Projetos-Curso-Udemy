@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: white url(../imagens/fundo.png) repeat-x top left;
+}
+
+#conteudo{
+    width: 55.5%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background: url(../imagens/detalhe-topo.png) no-repeat top right;
+    min-width: 720px;
+}
+
+#navbar{
+    padding-top: 25px;
+    height: 150px;
+}
+
+#navegacao-horizontal{
+    width: 87%;
+    margin-top: 35px;
+    min-width: 651px;
+}
+
+#navegacao-horizontal ul{
+    list-style: none;
+}
+
+#navegacao-horizontal li{
+    float: left;
+}
+
+#navegacao-horizontal a{
+    font-size: 14px;
+    background-color:rgb(177, 3, 51);
+    color: white;
+    text-decoration: none;
+    padding: 15px 21px;
+    border-left: 1px rgb(145, 5, 45) solid;
+    border-right: 1px rgb(184, 80, 110) solid;
+}
+
+#navegacao-horizontal a:hover{
+   color: #69001d;
+}
+
+#pagina a{
+    background-color: rgb(222, 0, 62);
+}
+
+#pagina a:hover{
+    color: white;
+}
+
+#area-principal{
+    margin-top: 60px;;
+}
+
+#conteudo-lateral{
+    width: 24%;
+
+    float: left;
+}
+
+.caixa{
+    float: left;
+    margin-top: 15px;
+    background: white url(../imagens/fundo-caixa.png);
+    padding: 5px;
+}
+
+.caixa h2{
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(41, 76, 113);;
+}
+
+.caixa form{
+    padding: 10px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.caixa input[type="text"]{
+    width: 95%;
+    border: 2px gray inset;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.caixa input[type="submit"]{
+    color: white;
+    background-color: rgb(177, 3, 51);
+    border-color: rgb(135, 5, 41);
+    padding: 7px;
+}
+
+.caixa ul{
+    padding: 5px;
+    list-style-type: none;
+}
+
+.caixa a{
+    font-size: 14px;
+    display: block;
+    padding: 10px 20px 10px 10px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-bottom: 0.5px solid rgb(224, 213, 213);
+}
+
+.caixa a:hover{
+    padding: 10px 10px 10px 20px;
+    background: white url(../imagens/marcador.png) no-repeat left center;
+    color: rgb(177, 165, 165);
+}
+
+.caixa-conteudo{
+    padding: 5px;
+    margin-top: 5px;
+    background-color: white; 
+}
+
+.caixa-conteudo p{
+    padding: 5px;
+}
+
+.caixa-conteudo span{
+    background-color:  rgb(177, 3, 51);
+    color: white;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#conteudo-central{
+    margin-left: 10px;
+    float: right;
+    width: 74%;
+    min-width: 400px;
+}
+
+.coluna-conteudo{
+    margin-left: 10px;
+    float: right;
+    width: 40%;
+    min-width: 400px;
+}
+
+.coluna-primaria{
+    width: 47%;
+    margin-right: 10px;
+}
+
+.coluna-primaria img, .coluna-secundaria img{
+    width: 98%;
+    border: 3px solid rgb(219, 214, 214);
+}
+
+.coluna-secundaria{
+    width: 47%;
+    margin-top: 15px;
+}
+
+.coluna-primaria a, .coluna-secundaria a{
+    padding: 0px 5px;
+    text-decoration: underline;
+    color: #e50040;
+    border: none;
+}
+
+.coluna-primaria a:hover, .coluna-secundaria a:hover{
+    padding: 0px 5px;
+    background: none;
+    color: #ec1b56;
+}
+.bloco-noticia{
+    background: white url(../imagens/fundo-caixa.png);
+    float: left;
+    width: 47%;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.segundo{
+    margin: 0px;
+}
+
+.bloco-noticia ul{
+    padding: 5px;
+    background-color: white;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.bloco-noticia h3{
+    padding-left: 75px;
+    font-size: 13px;
+}
+
+.bloco-noticia p{
+    padding-left: 75px;
+    font-size: 13px;;
+}
+
+.bloco-noticia li{
+    padding: 5px;
+    clear: both;
+    border-bottom: 0.5px solid rgb(161, 156, 156);
+}
+
+.bloco-noticia li:hover{
+    background-color: rgb(214, 203, 203);
+}
+
+.bloco-noticia h2{
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(41, 76, 113);
+}
+
+.bloco-noticia img{
+    width: 28%;
+    float: left;
+}
+
+.bloco-noticia a{
+    text-decoration: none;
+    color: black;
+}
+
+.bloco-noticia h3{
+    color: rgb(41, 76, 113);
+    text-transform: uppercase;
+}
+.destaque{
+    width: 98%; 
+}
+
+.destaque-img{
+    width: 35%;
+}
+.clear{
+    clear: both;
+}
+
+#footer{
+    min-width: 720px;
+    padding: 25px;
+    background-color: rgb(41, 76, 113);
+    text-align: center;
+    color: white;
+}
